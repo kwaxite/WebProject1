@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    outline: 2px solid black;
+}
+
+
+
+.header{
+    outline: 2px solid white;
+    height: 10vh;
+    background-color:rgb(31, 41, 55);
+    display: flex;
+    gap: 20px;
+}
+
+.section1 {
+    outline: 2px solid white;
+    height: 30vh;
+    background-color:rgb(31, 41, 55);
+}
+
+a{
+    color: white;
+}
+
+h3{
+    color: white;
+}
