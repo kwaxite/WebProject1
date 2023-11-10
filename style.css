@@ -21,10 +21,14 @@ body {
     background-color:rgb(31, 41, 55);
 }
 
-a{
+a{ 
     color: white;
 }
 
 h3{
     color: white;
+}
+
+img{
+    height: 8vh;
 }
