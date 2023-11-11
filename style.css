@@ -17,9 +17,11 @@ body {
 }
 
 .section1 {
-    outline: 2px solid white;
-    height: 30vh;
+    /* outline: 2px solid white; */
+    /* height: 30vh; */
     background-color:rgb(31, 41, 55);
+    display: flex;
+    /* flex: 1 1 1; */
 }
 
 a{ 
@@ -32,7 +34,7 @@ h3{
     color: white;
 }
 
-img{
+.img1{
     height: 8vh;
     margin-left: 5px;
     margin-top: 5px;
@@ -41,4 +43,44 @@ img{
 
 nav{
     padding: 12px;
+}
+
+.section1{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.heading1 {
+    color:rgb(249,250,248);
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0%;
+}
+
+.info1 {
+    color:rgb(229,231,235)
+
+}
+
+.img2{
+    width: 300px;
+}
+
+.subsecA, .subsecB {
+    flex: 1 1 auto;
+    
+}
+
+.button1{
+    text-align: center;
+    color:rgb(229,231,235);
+    background-color:rgb(56,130,246);
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 4px;
 }
