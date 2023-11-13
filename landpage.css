@@ -34,7 +34,7 @@ nav{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: blue;
+    background-color:rgb(31, 41, 55);
     padding: 32px;
     gap: 16px;
 }
@@ -43,5 +43,26 @@ nav{
     width: 200px;
 }
 
+.heading1 {
+    color:rgb(249,250,248);
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0%;
+    width: 100%;
+}
 
+.info1 {
+    color:rgb(229,231,235)
+}
 
+.button1{
+    text-align: center;
+    color:rgb(229,231,235);
+    background-color:rgb(56,130,246);
+    border: none;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
