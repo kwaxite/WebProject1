@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100vh;
+    
     outline: 2px solid black;
 }
 
@@ -14,6 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    width: 100%;
+   
 }
 
 .section1 {
@@ -38,6 +42,8 @@ h3{
     height: 8vh;
     margin-left: 5px;
     margin-top: 5px;
+    margin-right: auto;
+    padding: 5px;
 
 }
 
@@ -49,8 +55,12 @@ nav{
     display: flex;
     gap: 15px;
     justify-content: center;
+    width: auto;
     align-items: center;
     padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .heading1 {
@@ -58,6 +68,7 @@ nav{
     font-size: 48px;
     font-weight: 900;
     margin: 0%;
+    width: 100%;
 }
 
 .info1 {
@@ -70,8 +81,7 @@ nav{
 }
 
 .subsecA, .subsecB {
-    flex: 1 1 auto;
-    
+    flex: 1 1 auto;  
 }
 
 .button1{
@@ -83,4 +93,46 @@ nav{
     padding: 15px;
     border-radius: 5px;
     margin: 4px;
+}
+
+.middleSection {
+    display: flex;
+    flex-direction:column ;
+    background-color:white;
+    outline: 2px solid green;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    outline: 2px solid red ;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.sec2 {
+    display: flex;
+    flex-direction:column;
+    width: 100px;
+    
+    
+
+}
+
+.Box {
+    height: 100px;
+    width: 100px;
+    outline: 2px solid blue ;
+}
+
+.mid-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    color: rgb (31,41,55);
+    font-size: 36px;
+    font-weight: 900;
 }
